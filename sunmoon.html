@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Sun and Moon</title>
+    <meta name="description" content="Sun and Moon indicating time of day.">
+    <meta name="author" content="Mia Doyon">
+    
+     <link rel="stylesheet" type="text/css" href="sunmoon.css" media="screen" />
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+    <article>   
+  
+        <script>
+            var date = new Date();
+            var hours = date.getHours();
+            if ( (hours < 8) || (hours > 20) ) {
+            document.write("<img SRC='moon.jpg'>")
+            } else {
+            document.write("<img SRC='sun.jpg'>");
+            }         
+        </script>
+        
+    </article>
+    </main>
+
+    <footer>
+    </footer>
+    
+</body>
+</html>

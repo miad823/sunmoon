@@ -1,0 +1,7 @@
+article {    
+    display:flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+     justify-content: center;
+}
